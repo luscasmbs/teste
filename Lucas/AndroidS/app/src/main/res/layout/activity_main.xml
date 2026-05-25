@@ -1,24 +1,21 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="411dp"
+        android:layout_height="731dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/bg"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:src="@drawable/bg" />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#90FFFFFF"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:background="#90FFFFFF" />
 
     <TextView
         android:id="@+id/textView2"
@@ -29,8 +26,16 @@
         android:textColor="#242424"
         android:textSize="40sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="407dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
